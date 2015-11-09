@@ -2,6 +2,14 @@ FROM debian:stable
 
 MAINTAINER Leonard Marschke <leonard@marschke.me>
 
+EXPOSE 587
+EXPOSE 465
+EXPOSE 25
+EXPOSE 143
+EXPOSE 993
+EXPOSE 80
+EXPOSE 443
+
 #update software repos
 RUN apt-get update
 
